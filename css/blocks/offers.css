@@ -1,0 +1,32 @@
+.offers__title {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 36px;
+  margin: 0 0 40px;
+}
+.offers-list {
+  display: grid;
+  list-style-type: none;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  margin: 0 0 100px 0;
+  padding: 0;
+  justify-content: center;
+}
+
+.offers-list__item {
+  display: flex;
+  background-color: #f4f6fa;
+  border-radius: 16px;
+}
+
+.offers-list__item--big-blue {
+  color: #FFFFFF;
+  background-color: #5e81ff;
+  grid-row: span 2;
+}
+
+.offers-list__item--big {
+  grid-column: span 2;
+  padding: 0;
+}
