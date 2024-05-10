@@ -4,8 +4,8 @@
   justify-content: center;
   border: none;
   border-radius: 8px;
-  background-color: #476BF0;
-  color: #FFF;
+  background-color: #476bf0;
+  color: #fff;
   text-align: center;
   font-family: "Noto Sans", "Arial", sans-serif;
   font-size: 13px;
@@ -13,6 +13,6 @@
   line-height: 16px;
 }
 
-.btn--orange{
-  background-color: #FF8516;
+.btn--orange {
+  background-color: #ff8516;
 }
